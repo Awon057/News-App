@@ -49,8 +49,8 @@ public class NewsListAdapter extends RecyclerView.Adapter<NewsListAdapter.ViewHo
         Glide.with(context)
                 .load(URL)
                 .asBitmap()
-                .placeholder(R.drawable.news)
-                .error(R.drawable.news)
+                .placeholder(R.drawable.placeholder_news)
+                .error(R.drawable.placeholder_news)
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .signature(new StringSignature(String.valueOf(System.currentTimeMillis())))
                 .into(holder.image);

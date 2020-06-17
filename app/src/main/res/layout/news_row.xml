@@ -15,7 +15,7 @@
         android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:src="@mipmap/ic_news"
+        android:src="@drawable/placeholder_news"
         android:scaleType="fitXY"
         android:layout_marginBottom="@dimen/margin_normal"/>
 
